@@ -4,6 +4,9 @@ A Flutter web application that allows users to directly download VS Code extensi
 
 ![VSIX Downloader](screenshot.png)
 
+
+Live Demo: https://not-dhanraj.github.io/vsix_downloader/
+
 ## How It Works
 
 1. Copy a VS Code extension URL from the Marketplace 
