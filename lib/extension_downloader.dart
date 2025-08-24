@@ -226,7 +226,7 @@ class _ExtensionDownloaderState extends State<ExtensionDownloader> {
                     ),
                   ),
                 ),
-                const SizedBox(height: 30),
+                const SizedBox(height: 12),
                 if (_status.isNotEmpty)
                   AnimatedContainer(
                     duration: const Duration(milliseconds: 300),
@@ -283,7 +283,8 @@ class _ExtensionDownloaderState extends State<ExtensionDownloader> {
                       ],
                     ),
                   ),
-                const SizedBox(height: 30),
+                const SizedBox(height: 12),
+                Text('Made with ❤️ using Flutter'),
               ],
             ),
           ),
