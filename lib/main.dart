@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:vsix_downloader/extension_downloader.dart';
 
 void main() {
@@ -12,9 +13,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'VSIX Downloader',
-      theme: ThemeData(useMaterial3: true),
-      darkTheme: ThemeData.dark(useMaterial3: true),
-      themeMode: ThemeMode.dark,
+      darkTheme: ThemeData(
+        fontFamily: GoogleFonts.poppins().fontFamily,
+        useMaterial3: true,
+        brightness: Brightness.dark,
+      ),
+      theme: ThemeData(
+        useMaterial3: true,
+        fontFamily: GoogleFonts.poppins().fontFamily,
+      ),
+      themeMode: ThemeMode.system,
       home: const ExtensionDownloader(),
     );
   }
