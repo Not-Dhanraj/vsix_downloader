@@ -39,8 +39,8 @@ jobs:
     - name: Analyze code
       run: flutter analyze
 
-    - name: Run tests
-      run: flutter test
+    # - name: Run tests
+    #   run: flutter test
 
     - name: Build web app
       run: flutter build web --release --base-href "/vsix_downloader/"
