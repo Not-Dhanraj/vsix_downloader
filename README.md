@@ -19,7 +19,6 @@ Live Demo: https://not-dhanraj.github.io/vsix_downloader/
 - Download extensions for offline installation in VS Code or in VSCodium
 - Install extensions on machines without direct internet access
 - Create a local repository of extensions for enterprise environments
-- Compare different versions of extensions
 
 ## Getting Started
 
@@ -59,13 +58,6 @@ flutter build web --release
 ```
 
 The built application will be available in the `build/web` directory.
-
-## Technical Implementation
-
-The application:
-1. Extracts the extension ID from the provided URL using RegExp
-2. Generates a direct download link using the VS Code Marketplace API
-3. Initiates a direct download through the browser
 
 ## Contributing
 
